@@ -14,15 +14,18 @@ btn.addEventListener("click", ()=>{
           console.log(count);
           if(count === myAr.length){
               console.log("is a palindrome word " + myAr);
+              result.style.color = "green";
+
                 result.innerHTML = myAr + " is a palindrome word";
+            }else{
+                result.style.color = "red";
+                result.innerHTML = "Is not a palinrome word";
+                count += 0;
             }
         }else{
             count = 0;
+            result.innerHTML = "Is not a palindrome word";
         }
-        if(count === 0){
-            console.log("is not palindrome word");  
-            result.innerHTML = "Is not a palinrome word";
-        }
-    }
 
+    }
 })

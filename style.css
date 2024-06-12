@@ -1,0 +1,33 @@
+body{
+    background-color: aliceblue;
+    padding-left: 32%;
+}
+.view{
+    font-size: 30px;
+    color: rgb(168, 168, 115);
+    font-style: italic;
+}
+.myBx{
+  padding-top: 3%;
+  padding-left: 10%;
+}
+.word{
+    width: 40%;
+    background-position: 10px 10px;
+    border-radius: 4px;
+    padding: 12px 20px;
+}
+.btn{
+    border-radius: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    color: azure;
+    background-color: gray;
+    font-size: medium;
+}
+.result{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+
+}
